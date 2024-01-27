@@ -9,7 +9,10 @@ spring:
   h2:
     console:
       enabled: true
-
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
 debug: true
 image:
   local: true
