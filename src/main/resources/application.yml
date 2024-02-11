@@ -29,6 +29,8 @@ spring:
             enable: true
   thymeleaf:
     check-template-location: false
+googlemap:
+  key: ${googlemap.key}
 image:
   local: true
 push7:
